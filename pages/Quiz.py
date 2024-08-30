@@ -18,6 +18,6 @@ answer = st.text_input(question)
 if st.button("정답 확인하기"):
     result=chatbot(answer)
     if result == 'y':
-        st.success("정답")
+        st.success("정답!")
     else:
-        st.error("오답")
+        st.error("오답!")
